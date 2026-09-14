@@ -302,6 +302,8 @@
                         <exclude>**/*.orig</exclude>
                         <exclude>**/*.l4je</exclude>
                         <exclude>**/*.l4j</exclude>
+                        <exclude>**/AGENTS.md</exclude>
+                        <exclude>**/CLAUDE.md</exclude>
                       </excludes>
                       <includes>
                         <!-- Eclipse settings -->
@@ -309,8 +311,11 @@
                         <include>.settings/org.eclipse.jdt.core.prefs</include>
                         <include>.settings/org.eclipse.jdt.ui.prefs</include>
                         <include>.settings/org.eclipse.m2e.core.prefs</include>
-                        <!-- all the Markdown files at the top level -->
-                        <include>*.md</include>
+                        <!-- Markdown files at the top level, named explicitly -->
+                        <include>README.md</include>
+                        <include>LICENSE.md</include>
+                        <include>CONTRIBUTING.md</include>
+                        <include>JAVA-CODING-GUIDELINES.md</include>
                         <!-- logback configuration files -->
                         <include>src/**/logback*.xml</include>
                         <!-- things used to build the project -->

@@ -39,7 +39,7 @@
     <url>https://github.com/datalogics/pdf-java-toolkit-samples</url>
   </scm>
   <properties>
-    <super-pom.version>3.1.2</super-pom.version>
+    <super-pom.version>3.1.4</super-pom.version>
   </properties>
   <dependencyManagement>
     <dependencies>
